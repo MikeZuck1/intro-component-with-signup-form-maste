@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== BODY ===== */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    display: flex; /* Utiliser Flexbox pour la disposition */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; Hauteur de la fenêtre  */
+}
+
+/* ===== BOTH SIDE (LEFT & RIGHT) ===== */
+.left-side, 
+.right-side {
+    flex: 1; /* Les deux côtés prennent la même largeur */
+    width: 500px;
+    height: 500Px;
+}
+
+/* ===== LEFT SIDE CONTENT ===== */
+.left-side-content {
+    margin-top: 160px;
+    width: 450px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "roboto", sans-serif;
+    color: #fff;
+}
+
+p {
+    margin-top: 30px;
+    font-family: "roboto", sans-serif;
+    color: #fff;
+}
+
+/* ===== RIGHT SIDE CONTENT ===== */
+.theafter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(248, 32%, 49%);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.theafter p {
+    margin-top: 0;
+    color: hsl(246, 25%, 77%);
+}
+
+span {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ===== FORM ===== */
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.form-content {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.first-name, 
+.last-name, 
+.email, 
+.password,
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 15px;
+    font-weight: bold;
+    color: hsl(249, 10%, 26%);
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px;
+    width: 87%;
+    background-color:hsl(154, 59%, 51%);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-paragraph {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 11px;
+    color: hsl(246, 25%, 77%);
+}
+
+.form-paragraph span {
+    color: hsl(0, 100%, 74%);
+}
+
+.form-paragraph a {
+    text-decoration: none;
+}
